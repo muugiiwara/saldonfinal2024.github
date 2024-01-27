@@ -1,0 +1,294 @@
+<html><head>
+    <title>MOVIE DIRECTORY</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {font-family: "Lato", sans-serif}
+    .mySlides {display: none}
+    </style>
+    </head>
+    <body>
+    
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="#comedy" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMEDY</a>
+        <a href="#drama" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DRAMA</a>
+        <a href="#anime" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ANIME</a>
+        <a href="#cartoon" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CARTOON</a>
+        </div>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+      </div>
+    
+    
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="#comedy" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COMEDY</a>
+      <a href="#drama" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DRAMA</a>
+      <a href="#anime" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ANIME</a>
+      <a href="#cartoon" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CARTOON</a>
+    </div>
+    
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+    
+      <!-- Automatic Slideshow Images -->
+      <div class="mySlides w3-display-container w3-center">
+        <img src="https://gogocdn.net/images/anime/One-piece.jpg" style="width:60%">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <h3>ANIME</h3>  
+        </div>
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img src="https://m.media-amazon.com/images/M/MV5BMTY3ODg2OTgyOF5BMl5BanBnXkFtZTgwODk1OTAwMzE@._V1_.jpg" style="width:50%">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <h3>DRAMA</h3>    
+        </div>
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img src="https://static.wikia.nocookie.net/webarebears/images/2/29/910WOFW2FLL._SS500_.jpg" style="width:60%">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <h3>CARTOON</h3>    
+        </div>
+      </div>
+    
+      <!-- The Band Section -->
+      <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="comedy">
+        <h2 class="w3-wide">COMEDY</h2>
+        </div>
+        <div align="center">
+        <table border="1" bgcolor=" #afcfed">
+            <caption><h1 class="headercolor" id="Comedy"></h1></caption>
+        <tbody><tr>
+            <th><h2>Movie Poster</h2></th>
+            <th><h2>Movie Title</h2></th>
+            <th><h2>Movie Link</h2></th>
+            
+        </tr>
+        
+    
+        <tr>
+                <td><img class="imageposter" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJKJ6lGwFMrQR0gDdFAp0KU4kJ5WYhEpB8GcrQtlhrcAQ75QV-" width="150" height="200"></td>
+                <td><h3>3 Idiots </h3></td>
+                <td><h4><a href="https://hdtoday.tv/movie/watch-3-idiots-hd-69690" target="_blank">Link 1</a></h4></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://wallpaperaccess.com/full/1342900.png" width="150" height="150"></td>
+                <td><h3>Ghostbusters</h3></td>
+                <td><a href="https://hdtoday.tv/movie/watch-ghostbusters-hd-19015" target="_blank">Link 2</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://img.hdtoday.tv/xxrz/250x400/394/63/b7/63b7c2ccb5697b841aa372918f29dc2b/63b7c2ccb5697b841aa372918f29dc2b.jpg" width="150" height="150"></td>
+                <td><h3>Ghostbusters 2</h3></td>
+                <td><a href="https://hdtoday.tv/movie/watch-ghostbusters-ii-hd-19074" target="_blank">Link 3</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" width="150" height="150"></td>
+                <td><h3>Home Alone</h3></td>
+                <td><a href="https://hdtoday.tv/movie/watch-home-alone-hd-58995" target="_blank">Link 4</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://m.media-amazon.com/images/M/MV5BMjA2NDA0MTA4MV5BMl5BanBnXkFtZTYwODE2MzE5._V1_.jpg" width="150" height="150"></td>
+                <td><h3>Home Alone 2 Lost In New York</h3></td>
+                <td><h4><a href="https://hdtoday.tv/movie/watch-home-alone-2-lost-in-new-york-hd-18839" target="_blank">Link 5</a></h4></td>
+        </tr>
+        </tbody></table>
+    <h3><a href="#top">Go back to top</a></h3>
+    </div>
+      </div>
+    
+      <!-- The Tour Section -->
+      <div class="w3-black" id="drama">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+          <h2 class="w3-wide w3-center">DRAMA</h2>
+          <div align="center">
+        <table border="1" bgcolor=" #afcfed">
+            <caption><h1 class="headercolor" id="Drama"></h1></caption>
+        <tbody><tr>
+            <th><h2>Movie Poster</h2></th>
+            <th><h2>Movie Title</h2></th>
+            <th><h2>Movie Link</h2></th>
+            
+        </tr>
+        
+    
+        <tr>
+                <td><img class="imageposter" src="https://upload.wikimedia.org/wikipedia/en/8/8b/In_the_Heart_of_the_Sea_poster.jpg" width="150" height="150"></td>
+                <td><h3>In the Heart of the sea </h3></td>
+                <td><h4><a href="https://hdtoday.tv/movie/watch-in-the-heart-of-the-sea-hd-18267">Link 1</a></h4></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://m.media-amazon.com/images/M/MV5BNDQ4NjkxNzgzN15BMl5BanBnXkFtZTgwMjAzODQ4OTE@._V1_.jpg" width="150" height="150"></td>
+                <td><h3>A Dog's Purpose</h3></td>
+                <td><a href="https://hdtoday.tv/movie/watch-a-dogs-purpose-hd-18674">Link 2</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://m.media-amazon.com/images/M/MV5BMTY3ODg2OTgyOF5BMl5BanBnXkFtZTgwODk1OTAwMzE@._V1_.jpg" width="150" height="150"></td>
+                <td><h3>Unbroken</h3></td>
+                <td><a href="https://hdtoday.tv/movie/watch-unbroken-hd-18466">Link 3</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Joker_%282019_film%29_poster.jpg/220px-Joker_%282019_film%29_poster.jpg" width="150" height="150"></td>
+                <td><h3>Joker</h3></td>
+                <td><a href="https://hdtoday.tv/movie/watch-joker-hd-9766" target="_blank">Link 4</a></td>
+        </tr>
+    
+        <tr>
+                <td><img class="imageposter" src="https://i.pinimg.com/280x280_RS/32/43/dd/3243dd83fbff9df21df26cdbe6dba235.jpg" width="150" height="150"></td>
+                <td><h3>Life of Pi</h3></td>
+                <td><h4><a href="https://hdtoday.tv/movie/watch-life-of-pi-hd-18717" target="_blank">Link 5</a></h4></td>
+        </tr>
+        
+        </tbody></table>
+    <h3><a href="#top">Go back to top</a></h3>
+    </div>
+      </div>
+      </div>
+    
+      <!-- The Contact Section -->
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="anime">
+        <h2 class="w3-wide w3-center">ANIME</h2>
+         <div align="center">
+        <table border="1" width="80%" bgcolor=" #afcfed">
+            <caption><h1 class="headercolor" id="Anime"></h1></caption>
+        <tbody><tr>
+            <th><h2>Movie poster</h2></th>
+            <th><h2>Movie Title</h2></th>
+            <th><h2>Movie Link</h2></th>
+            
+        </tr>
+            
+    
+        <tr>
+                <td><img class="imageposter" src="https://gogocdn.net/images/anime/One-piece.jpg" width="150" height="150"></td>
+                <td><h3>ONE PIECE </h3></td>
+                <td><h4><a href="https://www9.gogoanimehub.tv/category/one-piece">Link 1</a></h4></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://gogocdn.net/images/anime/O/One-Piece-Film-Z.jpg" width="150" height="150"></td>
+                <td><h3>ONE PIECE FILM Z</h3></td>
+                <td><a href="https://www9.gogoanimehub.tv/category/one-piece-film-z">Link 2</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://gogocdn.net/images/anime/O/One-Piece-movie-1.jpg" width="150" height="150"></td>
+                <td><h3>ONE PIECE MOVIE 1: THE GREAT GOLD PIRATE</h3></td>
+                <td><a href="https://www9.gogoanimehub.tv/category/one-piece-movie-1-the-great-gold-pirate">Link 3</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://gogocdn.net/images/anime/O/One-Piece-movie-2.jpg" width="150" height="150"></td>
+                <td><h3>ONE PIECE MOVIE 2: CLOCKWORK ISLAND ADVENTURE</h3></td>
+                <td><a href="https://www9.gogoanimehub.tv/category/one-piece-movie-2-clockwork-island-adventure" target="_blank">Link 4</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://gogocdn.net/images/anime/O/One-Piece-movie-3.jpg" width="150" height="150"></td>
+                <td><h3>ONE PIECE MOVIE 3: CHOPPER KINGDOM OF STRANGE ANIMAL ISLAND</h3></td>
+                <td><h4><a href="https://www9.gogoanimehub.tv/category/one-piece-movie-3-chopper-kingdom-of-strange-animal-island" target="_blank">Link 5</a></h4></td>
+        </tr>
+        </tbody></table>
+    <h3><a href="#top">Go back to top</a></h3>
+    </div>
+      </div>
+      
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="cartoon">
+        <h2 class="w3-wide w3-center">CARTOON</h2>
+        <div align="center">
+        <table border="1" width="80%" bgcolor=" #afcfed">
+            <caption><h1 class="headercolor" id="Cartoon"></h1></caption>
+        <tbody><tr>
+            <th><h2>Movie poster</h2></th>
+            <th><h2>Movie Title</h2></th>
+            <th><h2>Movie Link</h2></th>
+            
+        </tr>
+            
+    
+        <tr>
+                <td><img class="imageposter" src="https://m.media-amazon.com/images/M/MV5BZTQyNTU0MDktYTFkYi00ZjNhLWE2ODctMzBkM2U1ZTk3YTMzXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_.jpg" width="150" height="150"></td>
+                <td><h3>Luca </h3></td>
+                <td><h4><a href="https://hdtoday.tv/movie/watch-luca-hd-70342">Link 1</a></h4></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://lumiere-a.akamaihd.net/v1/images/p_onward_19732_09862641.jpeg?region=0%2C0%2C540%2C810" width="150" height="150"></td>
+                <td><h3>Onward</h3></td>
+                <td><a href="https://hdtoday.tv/movie/watch-onward-hd-60586">Link 2</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://upload.wikimedia.org/wikipedia/en/d/dc/Over_the_Moon_%282020%29.png" width="150" height="150"></td>
+                <td><h3>Over the Moon</h3></td>
+                <td><a href="https://hdtoday.tv/movie/watch-over-the-moon-hd-64095">Link 3</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://static.wikia.nocookie.net/webarebears/images/2/29/910WOFW2FLL._SS500_.jpg/revision/latest/top-crop/width/360/height/450?cb=20200907065344" width="150" height="150"></td>
+                <td><h3>We Bare Bears: The Movie</h3></td>
+                <td><a href="https://hdtoday.tv/movie/watch-we-bare-bears-the-movie-hd-61651" target="_blank">Link 4</a></td>
+        </tr>
+        <tr>
+                <td><img class="imageposter" src="https://m.media-amazon.com/images/M/MV5BMjdkZjNjNDItYzc4MC00NTkxLTk1MWEtY2UyZjY5MjUwNDNkXkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_.jpg" width="150" height="150"></td>
+                <td><h3>The Mitchells vs. the Machines</h3></td>
+                <td><h4><a href="https://hdtoday.tv/movie/watch-the-mitchells-vs-the-machines-hd-69623" target="_blank">Link 5</a></h4></td>
+        </tr>
+        </tbody></table>
+    <h3><a href="#top">Go back to top</a></h3>
+    </div></div>
+      
+    <!-- End Page Content -->
+    
+    
+    <!-- Image of location/map -->
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+    
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+    
+    <script>
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 10000);    
+    }
+    
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+    
+    
+    
+    </body></html>
